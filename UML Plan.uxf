@@ -1,0 +1,42 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>360</x><y>20</y><w>300</w><h>270</h></coordinates><panel_attributes>&lt;&lt;Health Insurance&gt;&gt;
+Package::Put
+
+--
+-id: abstract
+_-ClassAttribute: public
+--
+#Getters and Setters
+/+AbstractOperation()
+Get/Set Social Secutiy Number
+Get/Set name
+Get/Set treatment
+--
+Responsibilities
+--Provides basic functionalities to automate 
+processes that comply with different health plans.</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>280</y><w>100</w><h>170</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>10;10;10;150</additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>430</y><w>340</w><h>140</h></coordinates><panel_attributes>_object: Health Plan B
+--subclass of Parent Health Insurance
+-Int Social
+-String name
+-String treatment
+---------------------------------------
++DocSig()
+Provides signature of doctor that is required</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>770</x><y>180</y><w>300</w><h>160</h></coordinates><panel_attributes>_object: Health Plan C
+--subclass of Parent Health Insurance
+-Int Social
+-String name
+-String treatment
+---------------------------------------
++DocSig()
+Provides signature of doctor that is required
++bedSize()
+Provides size of bed that was used by patient</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>170</y><w>140</w><h>50</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>14;24;120;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>250</y><w>300</w><h>180</h></coordinates><panel_attributes>_object: Health Plan A
+--subclass of Parent Health Insurance
+-Int Social
+-String name
+-String treatment
+---------------------------------------
++DocSig()
+Provides signature of doctor that is required</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>200</y><w>130</w><h>110</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>74;14;10;90</additional_attributes></element></diagram>

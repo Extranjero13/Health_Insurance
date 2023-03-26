@@ -91,7 +91,7 @@ public class Admin {
 
         System.out.println("Please enter your Social Secuity number: ");
         int C_social =customer.nextInt();
-        patient_B.setSocial(C_social);
+        patient_C.setSocial(C_social);
 
         customer.close();
         System.out.println("----------------------------");
