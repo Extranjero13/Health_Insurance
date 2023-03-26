@@ -39,6 +39,8 @@ public class Admin {
         System.out.println("Reason for visit: " + patient_A.getTreatment());
 
         System.out.println("*** $800 billed to insurance ***");
+        System.out.println("*** $60 copay required for visit ***");
+
 
         System.out.println("Doctor's signature at the bottom in accordance with Health Plan A: " + patient_A.Doc_Sig());
 
@@ -68,6 +70,7 @@ public class Admin {
         System.out.println("Doctor's signature at the top in accordance with Health Plan B: " + patient_B.Doc_Sig());
         System.out.println("Full name: " + patient_B.getName());
         System.out.println("*** $1000 billed to insurer for visit ***");
+        System.out.println("*** $20 copay required for visit ***");
         System.out.println("Reason for visit: " + patient_B.getTreatment());
         System.out.println("Social Security number: " +patient_B.getSocial());
 
@@ -100,6 +103,7 @@ public class Admin {
         System.out.println("Size of bed occupied for procedurce(required info for Health Care C Plan): " + patient_C.bed_size());
         System.out.println("Full name: " + patient_C.getName());
         System.out.println("*** $1200 billed to insurer for visit ***");
+        System.out.println("*** $30 copay required for visit ***");
         System.out.println("Reason for visit: " + patient_C.getTreatment());
         System.out.println("Social Security number: " +patient_C.getSocial());
 
